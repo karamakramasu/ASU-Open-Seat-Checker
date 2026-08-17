@@ -31,7 +31,7 @@ def check_seat():
 
 if __name__ == "__main__":
     seats_open = check_seat()
-    seats_open = 5
+
     if seats_open > 0:
         # THE SPAM LOOP - sends 5 messages every time the script runs
         for i in range(5):
