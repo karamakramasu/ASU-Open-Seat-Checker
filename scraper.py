@@ -17,7 +17,7 @@ def check_seat():
     # NOTE: We need to inspect your specific university website 
     # to know exactly what text or HTML tag to look for here!
     # For example, if it says "Seats: 1":
-    if "Seats: 0" not in response.text: 
+if "Non Reserved Available Seats: 0" not in response.text:
         return True
     return False
 
