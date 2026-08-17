@@ -7,7 +7,7 @@ import time
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK")
 
 # The page we are scraping
-COURSE_URL = "YOUR_UNIVERSITY_COURSE_CATALOG_URL"
+COURSE_URL = "https://catalog.apps.asu.edu/catalog/classes/classlist?campusOrOnlineSelection=C&catalogNbr=471&honors=F&promod=F&searchType=all&subject=CSE&term=2267#detailsOpen=85434-104223"
 
 def check_seat():
     # Fetch the webpage
